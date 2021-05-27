@@ -12,8 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spring.batch.version>2.2.1.RELEASE</spring.batch.version>
-	<spring.version>3.2.0.RELEASE</spring.version>
+    <spring.batch.version>3.0.0.RELEASE</spring.batch.version>
+	<spring.version>3.2.1.RELEASE</spring.version>
 	<log4j.version>1.2.14</log4j.version>
 	<mysql.version>5.1.2</mysql.version>
 	<junit.version>4.8.2</junit.version>
@@ -76,7 +76,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -317,7 +317,7 @@
 	<dependency>
 		<groupId>org.springframework.batch</groupId>
 		<artifactId>spring-batch-integration</artifactId>
-		<version>1.2.0.RELEASE</version>
+		<version>3.0.0.RELEASE</version>
 		<optional>false</optional>
 	</dependency>
 	<dependency>
